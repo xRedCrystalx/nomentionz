@@ -20,8 +20,14 @@
                 <a href={resolve("/youtube")} aria-label="YouTube" class="hover:opacity-50 transition-opacity duration-300">
                     <i class="fa-brands fa-youtube"></i>
                 </a>
+                <a href={resolve("/spotify")} aria-label="Spotify" class="hover:opacity-50 transition-opacity duration-300">
+                    <i class="fa-brands fa-spotify"></i>
+                </a>
                 <a href={resolve("/soundcloud")} aria-label="SoundCloud" class="hover:opacity-50 transition-opacity duration-300">
                     <i class="fa-brands fa-soundcloud"></i>
+                </a>
+                <a href={resolve("/tiktok")} aria-label="TikTok" class="hover:opacity-50 transition-opacity duration-300">
+                    <i class="fa-brands fa-tiktok"></i>
                 </a>
             </nav>
 
@@ -29,6 +35,6 @@
     </main>
 
     <footer class="relative z-10 pb-6 text-center text-xs md:text-xl text-black league-spartan">
-        &copy; 2026 NoMentionz. All rights reserved.
+        &copy; 2026 NoMentionz. All rights reserved. - <a href="https://github.com/xRedCrystalx/nomentionz" rel="noreferrer" target="_blank" class="underline">Source code</a>
     </footer>
 </div>
