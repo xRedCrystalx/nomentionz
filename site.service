@@ -1,0 +1,14 @@
+[Unit]
+Description=NoMentionz webapp service
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/nomentionz
+ExecStart=/usr/bin/node build
+Restart=always
+User=web
+Environment=NODE_ENV=production 
+Environment=ORIGIN=https://www.nomentionz.com
+
+[Install]
+WantedBy=multi-user.target
