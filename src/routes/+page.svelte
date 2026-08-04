@@ -26,9 +26,6 @@
                 <a href={resolve("/soundcloud")} aria-label="SoundCloud" class="hover:opacity-50 transition-opacity duration-300">
                     <i class="fa-brands fa-soundcloud"></i>
                 </a>
-                <a href={resolve("/tiktok")} aria-label="TikTok" class="hover:opacity-50 transition-opacity duration-300">
-                    <i class="fa-brands fa-tiktok"></i>
-                </a>
             </nav>
 
         </div>
